@@ -1,0 +1,33 @@
+# Constants for the project
+
+# General constants
+PROJECT_NAME = "Statistical Arbitrage Project"
+LOG_FILE = "project.log"
+LOG_LEVEL = "INFO"
+
+# Trading bot constants
+TRADING_PAIR = "BTC/USD"
+TRADE_QUANTITY = 0.01
+MAX_EXPOSURE = 0.1
+
+# Reinforcement learning constants
+STATE_SIZE = 10
+ACTION_SIZE = 5
+LEARNING_RATE = 0.001
+EPSILON = 0.1
+GAMMA = 0.95
+
+# Model training constants
+TENSORFLOW_INPUT_SHAPE = 10
+TENSORFLOW_EPOCHS = 50
+TENSORFLOW_BATCH_SIZE = 32
+TENSORFLOW_LEARNING_RATE = 0.001
+
+PYTORCH_INPUT_SIZE = 10
+PYTORCH_EPOCHS = 50
+PYTORCH_BATCH_SIZE = 32
+PYTORCH_LEARNING_RATE = 0.001
+
+# Risk metrics constants
+RISK_FREE_RATE = 0.02
+CONFIDENCE_LEVEL = 0.95
